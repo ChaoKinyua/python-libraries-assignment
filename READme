@@ -1,0 +1,106 @@
+Perfect 👍 Here’s a **README.md** you can use for your GitHub repo **Ubuntu\_Requests**.
+
+---
+
+# 🌍 Ubuntu-Inspired Image Fetcher
+
+> *"I am because we are."* – The Wisdom of Ubuntu
+
+This project is a simple Python script that reflects the Ubuntu spirit of **community, respect, sharing, and practicality**. It allows users to fetch images from the internet, organize them in a shared folder, and handle errors gracefully.
+
+---
+
+## ✨ Features
+
+* 📥 **Fetch any image from a given URL**
+* 🗂️ Automatically saves images in a directory called `Fetched_Images`
+* 📝 Extracts filenames from the URL or generates one if missing
+* 🛡️ **Error handling** for connection issues, timeouts, and HTTP errors
+* 🌱 Built on Ubuntu values:
+
+  * **Community**: Connects to the global internet community
+  * **Respect**: Handles errors without crashing
+  * **Sharing**: Organizes downloaded images for easy access
+  * **Practicality**: A real tool for saving and organizing resources
+
+---
+
+## 🛠️ Requirements
+
+* Python 3.x
+* [Requests library](https://docs.python-requests.org/en/latest/)
+
+Install requests if not already installed:
+
+```bash
+pip install requests
+```
+
+---
+
+## 🚀 Usage
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/yourusername/Ubuntu_Requests.git
+   cd Ubuntu_Requests
+   ```
+
+2. Run the script:
+
+   ```bash
+   python ubuntu_image_fetcher.py
+   ```
+
+3. Enter the image URL when prompted. Example:
+
+   ```
+   🌍 Please enter an image URL: https://example.com/sample.jpg
+   ```
+
+4. The image will be saved inside the `Fetched_Images` folder.
+
+---
+
+## 📂 Project Structure
+
+```
+Ubuntu_Requests/
+│
+├── ubuntu_image_fetcher.py   # Main script
+├── Fetched_Images/           # Folder where images are stored
+└── README.md                 # Project documentation
+```
+
+---
+
+## 🧭 Example
+
+Input:
+
+```
+https://upload.wikimedia.org/wikipedia/commons/a/a9/Example.jpg
+```
+
+Output:
+
+```
+✅ Image successfully fetched and saved as Fetched_Images/Example.jpg
+```
+
+---
+
+## 🌐 Inspiration
+
+This project draws inspiration from the **Ubuntu philosophy**:
+
+* *Community*: Connecting to the wider web
+* *Respect*: Handling errors gracefully
+* *Sharing*: Storing resources in an organized way
+* *Practicality*: A simple but useful everyday tool
+
+---
+
+## 📜 License
+
